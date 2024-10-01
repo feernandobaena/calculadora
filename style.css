@@ -1,0 +1,66 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    background-color: rgb(148, 148, 148);
+}
+
+header{
+    margin-bottom: 5%;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 50px;
+}
+
+.button-row, .button-row-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    margin: 3%;
+    padding: 1%;
+    width: 33%;
+    background-color: black;
+    border: solid black 5px;
+    border-radius: 9%;
+}
+
+main{
+    background-color: rgb(85, 164, 255);
+    padding: 15px;
+    border: solid black 2px;
+    border-radius: 5%;
+    height: 20%;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(41, 40, 40);
+}
+
+.math-element{
+    background-color: coral;
+    border: solid coral 2px;
+}
+
+.math-element:hover{
+    background-color: rgb(255, 150, 111);
+}
+
+input{
+    padding: 5px;
+    border: solid black 2px;
+    border-radius: 7%;
+}
